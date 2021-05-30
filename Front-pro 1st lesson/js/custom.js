@@ -36,7 +36,7 @@ if(genderNumber == 1){
 }else{
 	gender = 'Мужчина';
 }
-email = prompt('Укажите ваш электронный адрес: ')
+email = prompt('Укажите ваш электронный адрес: ');
 color = prompt('Какая цветовая гамма вам нравится : \n 1 - синий \n 2 - красный');
 
 while(Number.isNaN(color) || color < 1 || color > 2){
